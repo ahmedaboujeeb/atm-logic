@@ -67,15 +67,19 @@ withdraw(800);
 console.log(notes, '800');
 withdraw(400);
 console.log(notes, '400');
+// Code will throw an error here as no 100 notes left
 withdraw(600);
 console.log(notes, '600');
+// Code will throw an error here as no 100 notes left
 withdraw(300);
 console.log(notes, '300');
 withdraw(1000);
 console.log(notes, '1000');
+// Code will throw an error here as no 100 notes left
 withdraw(600);
 console.log(notes, '600');
 withdraw(700);
 console.log(notes, '700');
+// Code will throw an error here as no 100 notes left
 withdraw(100);
 console.log(notes, '100');
